@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column; /* Header on top, main in middle, footer bottom */
+  height: 100vh;          /* Full viewport height */
+}
+
+main {
+  display: flex;
+  flex-direction: row; /* Article left, aside right */
+  flex: auto;          /* Main expands to fill available space */
+}
+
+article {
+  flex: 2;
+  overflow-y: auto; 
+  padding-right: 20px;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;   
+  background-color: #fafafa;
+  padding-left: 20px;
+}
