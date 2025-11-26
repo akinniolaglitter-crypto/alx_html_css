@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  background-color: #f8f8f8;
+}
+
+header, main, footer {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+header ul li {
+  margin-right: 20px;
+}
+
+.logo {
+  font-size: 30px;
+  margin-right: 10px;
+}
+footer {
+  margin-top: auto;
+  background-color: #eee;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+}
+
+body.works_on_smartphone {
+  display: block;
+}
+
+body.works_on_smartphone main {
+  display: block;
+}
